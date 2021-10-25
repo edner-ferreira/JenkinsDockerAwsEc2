@@ -1,0 +1,11 @@
+docker build -t z4y/ednersf .
+docker run -it z4y/ednersf
+
+docker attach container
+docker exec -it container /bin/bash/
+
+docker container ps -a
+docker container rm container
+
+docker images
+docker image rm image
